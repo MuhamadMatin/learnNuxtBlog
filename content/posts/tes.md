@@ -3,7 +3,7 @@ title: "Tes"
 date: 02-11-2023
 draft: false
 tags: ["Hiking"]
-thumbnail: "/img/hiking.jpg/"
+thumbnail: "/img/hiking.webp/"
 slug: "tes"
 ---
 

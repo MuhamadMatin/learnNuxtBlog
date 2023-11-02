@@ -3,7 +3,7 @@ title: "Hello World"
 date: 10-10-2023
 draft: false
 tags: ["Hello", "World"]
-thumbnail: "/img/hello.jpg/"
+thumbnail: "/img/hello.webp/"
 slug: "hello-world"
 ---
 
