@@ -15,7 +15,7 @@ const { slug } = useRoute().params;
             {{ doc.date }}
           </div>
         </div>
-        <img :src="doc.thumbnail" alt="image thumnail" class="rounded-2xl object-cover" />
+        <img :src="doc.thumbnail" alt="image thumnail" class="md:w-full md:h-full object-cover absolute rounded-2xl" />
       </header>
 
       <!-- main -->
