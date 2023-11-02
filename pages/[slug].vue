@@ -16,7 +16,7 @@ const { slug } = useRoute().params;
           </div>
         </div>
 
-        <img :src="doc.thumbnail" class="w-full h-full rounded-2xl object-cover" />
+        <img :src="doc.thumbnail" alt="image thumnail" loading="lazy" class="w-full h-full rounded-2xl object-cover" />
       </header>
 
       <!-- main -->

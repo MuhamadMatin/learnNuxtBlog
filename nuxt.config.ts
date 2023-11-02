@@ -4,5 +4,11 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
 
-  content:{},
+  app: {
+    head: {
+      meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+    },
+  },
+
+  content: {},
 });

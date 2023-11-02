@@ -6,7 +6,6 @@
         <h1 class="text-2xl font-semibold">
           <Nuxt-link to="/">Personal blog</Nuxt-link>
         </h1>
-        <h3 class="text-gray-500">Learn Nuxt3</h3>
       </div>
       <Btn class="">Hire me</Btn>
     </header>
