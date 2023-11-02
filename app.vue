@@ -1,5 +1,5 @@
 <script setup>
-  const title = ref('LearnNuxtBlog');
+  const title = ref('LearnNuxtBlog'); 
 </script>
 <template>
   <div class="max-w-3xl px-4 mx-auto">
@@ -14,7 +14,7 @@
           <Nuxt-link to="/">Personal blog</Nuxt-link>
         </h1>
       </div>
-      <Btn class="">Hire me</Btn>
+      <Btn>Hire me</Btn>
     </header>
 
     <!-- main content -->
