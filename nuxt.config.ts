@@ -2,13 +2,19 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', '@nuxt/image'],
 
   app: {
     head: {
-      meta: [{ name: 'viewport', content: 'width=device-width, initial-scale=1' }],
+      title: 'LearnNuxtBlog',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      ],
     },
   },
+
+  image: {},
 
   content: {},
 });

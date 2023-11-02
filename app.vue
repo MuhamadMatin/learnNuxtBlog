@@ -3,7 +3,7 @@
     <!-- header -->
     <header class="mt-8 mb-4 flex justify-between items-end">
       <div>
-        <h1 class="text-2xl font-semibold">
+        <h1 class="text-2xl my-2 font-semibold">
           <Nuxt-link to="/">Personal blog</Nuxt-link>
         </h1>
       </div>

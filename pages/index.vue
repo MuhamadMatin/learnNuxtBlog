@@ -14,13 +14,13 @@
         class="rounded-t-2xl overflow-hidden mb-4">
         <!-- img blog -->
         <Nuxt-link :to="`${post.slug}`">
-          <div class="h-80 relative">
-            <img :src="post.thumbnail" alt="image thumnail" loading="lazy" class="w-full h-full object-cover absolute" />
+          <div class=" h-48 md:h-80 relative">
+            <NuxtImg :src="post.thumbnail" alt="image thumnail" loading="lazy" class="w-full h-full object-cover absolute" />
           </div>
           <div>
-            <h3 class="text-2xl font-semibold">
+            <h1 class="text-2xl font-semibold">
               {{ post.title }}
-            </h3>
+            </h1>
             <div class="text-sm text-gray-500">
               {{ post.date }}
             </div>
