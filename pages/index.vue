@@ -15,7 +15,7 @@
         <!-- img blog -->
         <Nuxt-link :to="`${post.slug}`">
           <div class="h-48 md:h-80 relative">
-            <img :src="post.thumbnail" alt="image thumnail" class="md:w-full md:h-full object-cover absolute rounded-2xl" />
+            <img :src="post.thumbnail" alt="image thumnail" class="w-full h-full rounded-2xl object-cover" />
           </div>
           <div>
             <h1 class="text-2xl font-semibold">
