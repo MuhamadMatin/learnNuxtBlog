@@ -14,3 +14,12 @@
     <NuxtPage />
   </div>
 </template>
+
+<script setup>
+  useHead({
+    title: 'LearnNuxtBlog',
+    meta: [
+      { name: 'description', content: 'Deskripsi situs Anda.' },
+    ],
+  });
+</script>
