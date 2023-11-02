@@ -1,5 +1,12 @@
+<script setup>
+  const title = ref('LearnNuxtBlog');
+</script>
 <template>
   <div class="max-w-3xl px-4 mx-auto">
+    <Head>
+      <Title>{{ title }}</Title>
+      <Meta name="description" :content="title" />
+    </Head>
     <!-- header -->
     <header class="mt-8 mb-4 flex justify-between items-end">
       <div>
@@ -14,12 +21,3 @@
     <NuxtPage />
   </div>
 </template>
-
-<script setup>
-  useSeoMeta({
-  title: 'LearnNuxtBlog',
-  ogTitle: 'My Amazing Site',
-  description: 'This is my amazing site, let me tell you all about it.',
-  ogDescription: 'This is my amazing site, let me tell you all about it.',
-})
-</script>

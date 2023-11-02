@@ -15,7 +15,7 @@ const { slug } = useRoute().params;
             {{ doc.date }}
           </div>
         </div>
-        <NuxtImg :src="doc.thumbnail" alt="image thumnail" loading="lazy" class="w-full h-full rounded-2xl object-cover" />
+        <LazyNuxtImg :src="doc.thumbnail" alt="image thumnail" loading="lazy" class="w-full h-full rounded-2xl object-cover" />
       </header>
 
       <!-- main -->
