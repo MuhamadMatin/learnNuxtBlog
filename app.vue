@@ -14,7 +14,7 @@
           <Nuxt-link to="/">Personal blog</Nuxt-link>
         </h1>
       </div>
-      <Btn>Hire me</Btn>
+      <Btn>Contact me</Btn>
     </header>
 
     <!-- main content -->
