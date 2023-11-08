@@ -1,9 +1,10 @@
 ---
 title: "Hello World"
-date: 10-10-2023
+publishedAt: 10-10-2023
 draft: false
 tags: ["Hello", "World"]
 thumbnail: "/img/hello.webp/"
+image: ["/img/hiking.webp"]
 slug: "hello-world"
 ---
 

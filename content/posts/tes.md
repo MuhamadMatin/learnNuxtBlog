@@ -1,6 +1,6 @@
 ---
 title: "Tes"
-date: 02-11-2023
+publishedAt: '02-11-2023'
 draft: false
 tags: ["Hiking"]
 thumbnail: "/img/hiking.webp/"

@@ -1,7 +1,5 @@
-<script></script>
-
 <template>
-  <div>
+  <div class="text-[#404047]">
     <ContentList path="/posts" v-slot="{ list }">
       <!-- blog card -->
       <div
@@ -22,7 +20,7 @@
               {{ post.title }}
             </h1>
             <div class="text-sm text-gray-500">
-              {{ post.date }}
+              {{ post.publishedAt }}
             </div>
           </div>
         </Nuxt-link>

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-const { slug } = useRoute().params;
+  const { slug } = useRoute().params;
 </script>
 
 <template>
-  <article class="rounded-2xl">
+  <main class="rounded-2xl">
     <ContentDoc :path="`/posts/${slug}`" v-slot="{ doc }">
       <!-- header -->
       <header>
@@ -12,22 +12,29 @@ const { slug } = useRoute().params;
             {{ doc.title }}
           </h1>
           <div class="text-gray-500 text-sm m-2">
-            {{ doc.date }}
+            {{ doc.publishedAt }}
           </div>
         </div>
         <img :src="doc.thumbnail" alt="image thumnail" class="w-full h-full rounded-2xl object-cover" />
       </header>
-
       <!-- main -->
-      <div class="py-3 px-2 text-sm lg:text-md md:py-4 md:px-3">
+      <article class="py-3 px-2 text-sm lg:text-md md:py-4 md:px-3">
         <ContentRenderer :value="doc" />
-      </div>
+        <ContentRenderer :value="doc.image" />
+      </article>
     </ContentDoc>
-  </article>
+    <ContentDoc>
+      <template #not-found>
+        <NuxtLink to="/" class="py-1 px-4 rounded-full border bg-[#2c3e50] text-white">
+          Back to Index
+        </NuxtLink>
+      </template>
+    </ContentDoc>
+  </main>
 </template>
 
 <style>
-  p{
+  p {
     margin: 10px 0px;
   }
 </style>
