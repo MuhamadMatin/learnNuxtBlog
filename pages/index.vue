@@ -11,11 +11,11 @@
           draft: false,
           sort: [{ date: -1 }],
         }"
-        class="rounded-t-2xl overflow-hidden mb-4">
+        class="rounded-t-lg md:rounded-t-xl lg:rounded-t-2xl overflow-hidden mb-4">
         <!-- img blog -->
         <Nuxt-link :to="`${post.slug}`">
           <div class="h-48 md:h-80 relative">
-            <img :src="post.thumbnail" alt="image thumnail" class="w-full h-full rounded-2xl object-cover" />
+            <img :src="post.thumbnail" alt="image thumnail" class="w-full md:h-full h-48 rounded-lg md:rounded-xl lg:rounded-2xl object-cover" />
           </div>
           <div>
             <h1 class="text-2xl font-semibold">
