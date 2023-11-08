@@ -1,8 +1,9 @@
 <script setup>
-  const title = ref('LearnNuxtBlog'); 
+  const title = ref('LearnNuxtBlog');
 </script>
 <template>
   <div class="max-w-3xl px-4 mx-auto">
+    <!-- ini merupakan cara menambahkan head pada Nuxt -->
     <Head>
       <Title>{{ title }}</Title>
       <Meta name="description" :content="title" />
