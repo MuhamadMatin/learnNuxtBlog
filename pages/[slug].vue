@@ -20,7 +20,6 @@
       <!-- main -->
       <article class="py-3 px-2 text-sm lg:text-md md:py-4 md:px-3">
         <ContentRenderer :value="doc" />
-        <ContentRenderer :value="doc.image" />
       </article>
     </ContentDoc>
     <ContentDoc>
