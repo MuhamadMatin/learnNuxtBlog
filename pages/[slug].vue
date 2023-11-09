@@ -22,13 +22,6 @@
         <ContentRenderer :value="doc" />
       </article>
     </ContentDoc>
-    <ContentDoc>
-      <template #not-found>
-        <NuxtLink to="/" class="py-1 px-4 rounded-full border bg-[#2c3e50] text-white">
-          Back to Index
-        </NuxtLink>
-      </template>
-    </ContentDoc>
   </main>
 </template>
 
