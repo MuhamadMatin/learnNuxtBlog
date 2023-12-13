@@ -16,7 +16,7 @@
             <img :src="post.thumbnail" alt="image thumnail" class="w-full md:h-full h-48 rounded-lg md:rounded-xl lg:rounded-2xl object-cover" />
           </div>
           <div>
-            <h1 class="text-xl font-semibold">
+            <h1 class="text-xl md:text-2xl font-semibold">
               {{ post.title }}
             </h1>
             <div class="text-sm text-gray-500">

@@ -1,11 +1,10 @@
 ---
-title: "Hello World"
+title: 'Hello World'
 publishedAt: 10-10-2023
 draft: false
-tags: ["Hello", "World"]
-thumbnail: "/img/hello.webp/"
-image: ["/img/hiking.webp"]
-slug: "hello-world"
+tags: ['Hello-World']
+thumbnail: '/img/hello.webp/'
+slug: 'hello-world'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus ex eu arcu ornare posuere. Donec a augue lacinia, posuere elit in, pretium nisl. Sed aliquam velit quam, a accumsan nulla feugiat ac. Phasellus fringilla nulla lorem, id interdum diam mattis dapibus. Aliquam eget tristique neque. Integer vestibulum enim ut est rutrum mattis. Sed mauris magna, malesuada a volutpat ut, sagittis eget ligula.
