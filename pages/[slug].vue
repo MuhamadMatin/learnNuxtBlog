@@ -15,10 +15,10 @@
             {{ doc.publishedAt }}
           </div>
         </div>
-        <img :src="doc.thumbnail" alt="image thumnail" class="w-full md:h-80 rounded-md md:rounded-2xl md:object-cover" />
+        <NuxtImg loading="lazy" :src="doc.thumbnail" alt="image thumnail" class="w-full md:h-80 rounded-md md:rounded-2xl md:object-cover" />
       </header>
       <!-- main -->
-      <article class="py-3 px-2 lg:text-md md:py-4 md:px-2">
+      <article class="">
         <ContentRenderer :value="doc" />
       </article>
     </ContentDoc>

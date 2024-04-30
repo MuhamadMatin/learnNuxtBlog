@@ -3,7 +3,7 @@ title: 'Hello World'
 publishedAt: 10-10-2023
 draft: false
 tags: ['Hello-World']
-thumbnail: '/img/hello.webp/'
+thumbnail: 'img/hello.webp'
 slug: 'hello-world'
 ---
 

@@ -1,11 +1,16 @@
 ---
-title: "Hiking"
+title: 'Hiking'
 publishedAt: '02-11-2023'
-draft: false
-tags: ["Hiking"]
-thumbnail: "/img/hiking.webp/"
-slug: "hiking"
+# draft: false
+# tags: ['Hiking']
+thumbnail: 'img/hiking.webp'
+slug: 'hiking'
 ---
+
+
+```js
+console.log("tes");
+```
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus ex eu arcu ornare posuere. Donec a augue lacinia, posuere elit in, pretium nisl. Sed aliquam velit quam, a accumsan nulla feugiat ac. Phasellus fringilla nulla lorem, id interdum diam mattis dapibus. Aliquam eget tristique neque. Integer vestibulum enim ut est rutrum mattis. Sed mauris magna, malesuada a volutpat ut, sagittis eget ligula.
 
